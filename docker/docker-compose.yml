@@ -1,0 +1,7 @@
+services:
+  cling:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../explicaciones/:/home/jovyan/work
